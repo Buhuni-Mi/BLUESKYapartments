@@ -1,0 +1,152 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(180, 180, 251);
+    padding-bottom:40px;
+}
+
+.Active{
+    background-color:royalblue;
+
+}
+
+li a:hover{
+    background-color:skyblue;
+}
+
+
+ul{
+    list-style-type:None;
+    margin:0;
+    padding: 15px;
+    background-color:rgb(3, 3, 67);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    right:0;
+}
+
+li{
+    display:inline;
+    
+}
+
+ul li.left{
+    color:black;
+    font-size:30px;
+    background-color: aliceblue;
+    padding:12px;
+    text-align: left;
+    margin-right:auto;
+}
+
+li a{
+    padding:20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:20px;
+    margin:0px;
+    border:0;
+}
+
+.hero {
+  display: flex;
+  align-items:start;   
+  margin-top: 0;         
+  padding: 0;
+}
+
+.hero-text {
+  flex: 1;               
+  padding:30px;  
+  padding-top:60px;
+  padding-bottom: 30px;
+  padding-left: 55px;
+  background-color: blanchedalmond;
+      
+}
+
+.hero-image img {
+  width: 800px;
+  height: 500px;
+  display: block;
+  right: 0;
+}
+
+h1 {
+  margin-top: 0;
+  padding:0px;
+  padding-bottom: 0px;
+}
+
+.next-line{
+    display:block;
+}
+
+
+p{
+    font-size:22px;
+    line-height:1.6;
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+    color:rgb(12, 2, 2);
+}
+
+.heading{
+    text-align: center;
+    color: rgb(3, 3, 67);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+    padding:10px;
+    background-color: papayawhip;
+}
+
+.text{
+    padding: 0px 0px 0px 50px;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 3px;
+    background-color: rgb(3, 3, 67);
+    color:white;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot{
+    text-align: center;
+    color:white;
+}
+
+
+
+body {
+  font-size: 18px;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  img {
+    width: 100%;
+  }
+}

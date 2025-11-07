@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>BlueSKY Apartment Contact</title>
+    <link rel="stylesheet" type="text/css" href="CssFile.css">
+    <link rel="stylesheet" type="text/css" href="contacts.css">
+
+    <style>
+        .responsive {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        const form = document.getElementById('form')
+        const checkbox = document.getElementById('check')
+        const message = document.getElementById('message')
+
+        form.addEventListener('submit', function validatecheckbox(e) {
+            if (checkbox.checked == true) {
+                message.innerHTML = 'Done'
+            }
+            else {
+                message.innerHTML = 'Something went wrong'
+            }
+        })
+    </script>
+
+
+    <ul>
+        <li class="left"><b>BlueSKY</b> Apartments (Pvt)Ltd</li>
+        <li><a href="file01.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a class="Active" href="Contact.html">CONTACT</a></li>
+    </ul>
+
+    <form id="form" class="responsive">
+        <h2>For Further Inquiries</h2>
+        <lable for="name">Name: </lable><input type="text" id="name"><br>
+        <lable for="mail">Email: </lable><input type="text" id="mail"><br>
+        <lable for="message">Message: </lable><input type="text" id="message"><br>
+
+        <input type="checkbox" id="checkbox">
+        <lable for="checkbox">I am not a robot</lable><br>
+        <button type="submit">Submit</button>
+
+    </form><br>
+
+    <div class="contact">
+        <h1>📍Address</h1><br>
+        <h3>BlueSKY Apartments (Pvt)Ltd<br>No.245,Pallimulla,Matara,Sri Lanka</h3><br>
+        <h1>📞Phone</h1><br>
+        <h3>+94 412 221 111 & +94 412 228 777</h3><br>
+        <h1>📩Email</h1><br>
+        <h3>info.Apart@BlueSKYcomplex.com</h3>
+    </div>
+
+    <img src="C:\Users\USER\Desktop\Assesment\Screenshot 2025-09-12 092004.png" alt="Why Choose Us" class="responsive"><br><br>
+
+    <footer>
+        <p class="foot">&copy;2025. BlueSKY Apartment Complex (pvt)Ltd. </p>
+    </footer>
+</body>
+
+</html>
