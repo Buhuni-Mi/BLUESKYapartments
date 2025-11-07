@@ -68,6 +68,10 @@ li a{
       
 }
 
+.Niro img{
+    padding-bottom:10px;
+    margin-bottom:10;
+
 .hero-image img {
   width: 800px;
   height: 750px;
@@ -151,5 +155,6 @@ body {
   }
 
 }
+
 
 
