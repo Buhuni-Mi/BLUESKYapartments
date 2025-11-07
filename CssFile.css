@@ -70,7 +70,7 @@ li a{
 
 .hero-image img {
   width: 800px;
-  height: 500px;
+  height: 750px;
   display: block;
   right: 0;
 }
@@ -149,4 +149,5 @@ body {
   img {
     width: 100%;
   }
+
 }
