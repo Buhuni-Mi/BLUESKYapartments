@@ -55,7 +55,7 @@ li a{
   display: flex;
   align-items:start;   
   margin-top: 0;         
-  padding: 0;
+  padding-bottom:10;
 }
 
 .hero-text {
@@ -151,3 +151,4 @@ body {
   }
 
 }
+
