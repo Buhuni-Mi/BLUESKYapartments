@@ -80,17 +80,17 @@ td{
 }
 
 .image{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom:15px;
 }
 
 .picture{
-    margin-left:50px;
+    margin-left:20px;
     margin-bottom:15px;
 }
 
 .magic{
-    margin-left:10px;
+    margin-left:20px;
     margin-bottom:25px;
 }
 
@@ -125,3 +125,4 @@ body {
   }
 
 }
+
